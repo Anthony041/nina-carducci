@@ -2,25 +2,38 @@
 <html lang="fr">
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Portfolio of the photographer Nina Carducci.">
 	<meta charset="UTF-8">
-	<title>Nina Carducci</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- crawlers -->
+	<meta name="robots" content="index, follow">
+
+	<!-- title et description -->
+	<title>Nina Carducci, photographe à Bordeaux</title>
+	<meta name="description" content="Portfolio de la photographe Nina Carducci, située à Bordeaux mais intervenant également en Ile-de-France. Nina est spécialisée dans les shooting photos de portraits et d'évènementiel ainsi que dans les retouches et les albums photos.">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Nina Carducci, photographe à Bordeaux">
+	<meta name="twitter:description" content="Portfolio de la photographe Nina Carducci, située à Bordeaux mais intervenant également en Ile-de-France. Nina est spécialisée dans les shooting photos de portraits et d'évènementiel ainsi que dans les retouches et les albums photos.">
+	<meta name="twitter:image" content="https://nina-carducci.github.io/assets/images/nina-448w.webp">
+	
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Nina Carducci, photographe à Bordeaux" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://nina-carducci.github.io/" />
+	<meta property="og:image" content="https://nina-carducci.github.io/assets/images/nina-448w.webp" />
+	<meta property="og:description" content="Portfolio de la photographe Nina Carducci, située à Bordeaux mais intervenant également en Ile-de-France. Nina est spécialisée dans les shooting photos de portraits et d'évènementiel ainsi que dans les retouches et les albums photos." />
+
+	<!-- Bootstrap et CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 	<link rel="stylesheet" href="./assets/style.min.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preload"
-		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
-		as="style">
-	<link rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
 </head>
 
 <body>
 	<header>
 		<div class="top-header">
-			<h1 class="name">Nina Carducci</h1>
+			<h1 style="min-height: 31.19px;" class="name">Nina Carducci</h1>
 			<nav class="nav">
 				<ul>
 					<li><a href="#about">À propos</a></li>
@@ -28,11 +41,11 @@
 					<li><a href="#services">Service</a></li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-							target="_blank"><img src="assets/images/instagram.webp" alt="instagram link"></a></li>
+							target="_blank"><img src="assets/images/instagram.webp" alt="lien Instagram"></a></li>
 				</ul>
 			</nav>
 		</div>
-		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div style="min-height: 165px;" id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
 					aria-current="true" aria-label="Slide 1"></button>
@@ -44,41 +57,35 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<picture>
-						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-300w.webp" media="(max-width: 300px)">
 						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-360w.webp" media="(max-width: 360px)">
 						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-450w.webp" media="(max-width: 450px)">
 						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1140w.webp" media="(max-width: 1140px)">
 						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1580w.webp" media="(max-width: 1580px)">
 						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1920w.webp" media="(max-width: 1920px)">
-						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-2048w.webp" media="(max-width: 2048px)">
 						<img class="d-block w-100 h-100" src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-4540w.webp"
-							alt="man in a suit on a pedestrian crossing">
+							alt="homme en costume sur un passage piéton">
 					</picture>
 				</div>
 				<div class="carousel-item">
 					<picture>
-						<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-300w.webp" media="(max-width: 300px)">
 						<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-360w.webp" media="(max-width: 360px)">
 						<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-450w.webp" media="(max-width: 450px)">
 						<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1140w.webp" media="(max-width: 1140px)">
 						<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1580w.webp" media="(max-width: 1580px)">
 						<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1920w.webp" media="(max-width: 1920px)">
-						<source srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-2048w.webp" media="(max-width: 2048px)">
 						<img class="d-block w-100 h-100" src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-6000w.webp"
-							alt="crowd at a concert">
+							alt="foule dans la fosse à un concert" loading="lazy">
 					</picture>
 				</div>
 				<div class="carousel-item">
 					<picture>
-						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-300w.webp" media="(max-width: 300px)">
 						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-360w.webp" media="(max-width: 360px)">
 						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-450w.webp" media="(max-width: 450px)">
 						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1140w.webp" media="(max-width: 1140px)">
 						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1580w.webp" media="(max-width: 1580px)">
 						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1920w.webp" media="(max-width: 1920px)">
-						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-2048w.webp" media="(max-width: 2048px)">
 						<img class="d-block w-100 h-100" src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-5653w.webp"
-							alt="couple of dancers embracing">
+							alt="couple de danseurs s'embrassant" loading="lazy">
 					</picture>
 				</div>
 			</div>
@@ -99,13 +106,9 @@
 		<article id="about">
 			<div class="picture left">
 				<picture>
-					<source srcset="./assets/images/nina-256w.webp" media="(max-width: 256px)">
-					<source srcset="./assets/images/nina-300w.webp" media="(max-width: 300px)">
-					<source srcset="./assets/images/nina-360w.webp" media="(max-width: 360px)">
-					<source srcset="./assets/images/nina-560w.webp" media="(max-width: 746px)">
-					<source srcset="./assets/images/nina-890w.webp" media="(max-width: 1780px)">
-					<source srcset="./assets/images/nina-1120w.webp" media="(max-width: 2240px)">
-					<img class="d-block w-100 h-100" src="./assets/images/nina-1460w.webp" alt="nina">
+					<source srcset="./assets/images/nina-256w.webp" media="(max-width: 360px)">
+					<source srcset="./assets/images/nina-560w.webp" media="(max-width: 1920px)">
+					<img class="d-block w-100 h-100" src="./assets/images/nina-1460w.webp" alt="Nina">
 				</picture>
 			</div>
 			<div id="about-me">
@@ -126,41 +129,41 @@
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
 					<img data-gallery-tag="Concert" class="gallery-item"
-						srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-448w.webp 448w"
+						srcset="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-360w.webp 360w"
 						src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash-1090w.webp"
-						alt="orange atmosphere concert" loading="lazy">
+						alt="concert à l'atmosphère lumineuse orange">
 					<img data-gallery-tag="Entreprises" class="gallery-item"
-						srcset="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-448w.webp 448w"
+						srcset="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-360w.webp 360w"
 						src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash-1090w.webp"
-						alt="man in suit" loading="lazy">
+						alt="homme en costume">
 					<img data-gallery-tag="Entreprises" class="gallery-item"
-						srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-448w.webp 448w"
+						srcset="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-360w.webp 360w"
 						src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash-1090w.webp"
-						alt="smiling colleagues" loading="lazy">
+						alt="collègues riant" loading="lazy">
 					<img data-gallery-tag="Mariages" class="gallery-item"
-						srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-448w.webp 448w"
+						srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-360w.webp 360w"
 						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-1090w.webp"
-						alt="four hands coming together" loading="lazy">
+						alt="quatre mains qui se rejoignent" loading="lazy">
 					<img data-gallery-tag="Portrait" class="gallery-item"
-						srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-448w.webp 448w"
+						srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-360w.webp 360w"
 						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-1090w.webp"
-						alt="man closing his eyes to the sun" loading="lazy">
+						alt="homme fermant les yeux face au soleil" loading="lazy">
 					<img data-gallery-tag="Mariages" class="gallery-item"
-						srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-448w.webp 448w"
+						srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-360w.webp 360w"
 						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-1090w.webp"
-						alt="two married" loading="lazy">
+						alt="un homme et une femme en habits de mariés" loading="lazy">
 					<img data-gallery-tag="Portrait" class="gallery-item"
-						srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-448w.webp 448w"
+						srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-360w.webp 360w"
 						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-1090w.webp"
-						alt="girl portrait" loading="lazy">
+						alt="portrait d'une femme" loading="lazy">
 					<img data-gallery-tag="Concert" class="gallery-item"
-						srcset="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-448w.webp 448w"
+						srcset="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-360w.webp 360w"
 						src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash-1090w.webp"
-						alt="white atmosphere concert" loading="lazy">
+						alt="concert à l'atmosphère lumineuse blanche" loading="lazy">
 					<img data-gallery-tag="Entreprises" class="gallery-item"
-						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-448w.webp 448w"
+						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-360w.webp 360w"
 						src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash-1090w.webp"
-						alt="girl smiling" loading="lazy">
+						alt="femme souriant" loading="lazy">
 				</div>
 			</div>
 			<aside class="quote">
@@ -236,22 +239,22 @@
 				<div class="picture right">
 					<picture>
 						<source srcset="./assets/images/camera-300w.webp" media="(max-width: 600px)">
-						<source srcset="./assets/images/camera-419w.webp" media="(max-width: 838px)">
-						<source srcset="./assets/images/camera-838w.webp" media="(max-width: 1676px)">
+						<source srcset="./assets/images/camera-419w.webp" media="(max-width: 1920px)">
 						<img class="d-block w-100 h-100" src="./assets/images/camera-2024w.webp"
-						alt="camera" loading="lazy">
+						alt="appareil photo" loading="lazy">
 					</picture>
 				</div>
 			</div>
 		</article>
 		</main>
 
+		<!-- scripts -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
 			crossorigin="anonymous"></script>
-		<script src="https://code.jquery.com/jquery-3.6.4.min.js"
+		<script defer src="https://code.jquery.com/jquery-3.6.4.min.js"
 			integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-		<script src="./assets/scripts.js"></script>
-		<script src="./assets/maugallery.min.js"></script>
+		<script defer src="./assets/scripts.js"></script>
+		<script defer src="./assets/maugallery.min.js"></script>
 	</body>
 </html>
